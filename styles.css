@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(52, 10, 94);
+
+}
+
+a { 
+    color: orangered;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h1, h2, h3, h4, h5, h6 { 
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+}
+p{
+    color: lightskyblue;
+    font-size: medium;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    padding-top: 10px;
+
+  }
+
+  ul {
+    list-style: none;
+  }
+
+img{ margin-top: 10px;
+     margin-bottom: 10px;
+     margin-left: 50px;
+     padding-top: 10px;
+
+}
+figcaption {    font-size: small;
+                padding-top: 0px;
+                padding-left: 60px; 
+                font-family: Arial, Helvetica, sans-serif;
+                color: orange; 
+}
+
+
+
