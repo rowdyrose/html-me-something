@@ -1,20 +1,24 @@
 body {
-    background-color: rgb(52, 10, 94);
+    background-color: rgb(24, 7, 41);
 
 }
 
-a { 
-    color: orangered;
-    font-family: Arial, Helvetica, sans-serif
+.ReturnButton { 
+  text-align: right;
+  color: white;
 }
 
-h1, h2, h3, h4, h5, h6 { 
-    font-family: Arial, Helvetica, sans-serif;
-    color: orange;
+a {     
+        color: pink;
+        font-family: Arial, Helvetica, sans-serif
 }
-p{
+
+h1, h2, h3, h4, h5, h6 { font-family: Arial, Helvetica, sans-serif;
+                          color: rgb(255, 255, 255);
+}
+p{  
     color: lightskyblue;
-    font-size: medium;
+    font-size: 16pt;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 50px;
@@ -22,22 +26,37 @@ p{
 
   }
 
-  ul {
-    list-style: none;
+  ul { 
+        list-style: none;
   }
 
-img{ margin-top: 10px;
-     margin-bottom: 10px;
-     margin-left: 50px;
-     padding-top: 10px;
+img{ 
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin-left: 50px;
+      padding-top: 10px;
 
 }
-figcaption {    font-size: small;
+figcaption {    
+                font-size: small;
                 padding-top: 0px;
                 padding-left: 60px; 
                 font-family: Arial, Helvetica, sans-serif;
                 color: orange; 
 }
 
+.text {   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          font-size: 5em;          
+}
 
+#footer {
+            text-align: center;
+}
 
+hr { 
+  margin-left: 10%;
+  margin-right: 15%;
+  border: dashed 1px;
+  border-width: 50%;
+  color: white;
+} 
